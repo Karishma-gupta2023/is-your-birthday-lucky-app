@@ -1,4 +1,18 @@
-div{
-    color:blue;
-    font-size: large;
+body{
+    background-color: darkblue;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    color:aliceblue
+}
+
+#output{
+    font-weight: bold;
+    color:rgb(255, 0, 60);
+    font-size: larger;
 }
